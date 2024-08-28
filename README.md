@@ -8,7 +8,7 @@
 
 *Model Development*: Multiple regression models were constructed to predict player salaries. Both explanatory and predictive models were considered to ensure accuracy and interpretability. Key variables, including on-base percentage (OBP), slugging percentage (SLG), and plate appearances (PA), were included in the models.
 
-**Results**: The model successfully identified key performance metrics that impact player salaries, with OBP being a significant predictor. The analysis also highlighted players who were either overvalued or undervalued according to the model, providing valuable insights for the team's contract negotiations.
+**Results**: The model successfully identified key performance metrics that impact player salaries, with OBP being a significant predictor. The analysis also highlighted players who were either overvalued or undervalued..
 
 ## Project 2: Loan Default Predictions - Applied Machine Learning (https://github.com/reedlabar/Loan-Default-Predictions)
 
@@ -23,7 +23,7 @@ This project aimed to predict the likelihood of loan defaults using various mach
 
 *Model Evaluation*: The Random Forest model achieved the highest accuracy at 98%, with key variables like interest rate and annual income being significant predictors of loan defaults. The ANN model had lower accuracy, indicating sensitivity issues, particularly in predicting loan denials.
 
-**Results**: The Random Forest model was the most effective, accurately predicting 38,391 loan statuses with a 98% accuracy rate. The model demonstrated strong performance in identifying defaults, although misclassifications were seen with loans classified as fully paid but predicted as charged off. The dataset did have more records of people who did not default on their loans compared to those who did. Random Forest was good at handling such imbalances because it uses multiple decision trees and aggregates their results, reducing the bias toward the majority class.
+**Results**: The Random Forest model was the most effective, accurately predicting 38,391 loan statuses with a 98% accuracy rate. The model had a strong performance in identifying defaults, although misclassifications was seen with loans classified as fully paid but predicted as charged off. The dataset did have more records of people who did not default on their loans compared to those who did. Random Forest was good at handling such imbalances because it uses multiple decision trees and aggregates their results, reducing the bias toward the majority class.
 
 
 ## Project 3: Win Simulator 
