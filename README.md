@@ -30,7 +30,7 @@ This project aimed to predict the likelihood of loan defaults using various mach
 **Purpose**:
 This project was an extension of my Salary Prediction Model, designed to predict the number of wins for a sports team using the same variables that influenced player salaries. My goal was to create an interactive tool that allows users to pick three hitters and see the number of wins they would get.
 
-**Actions Taken**: Data Collection and Preparation: I used the same dataset and variables from the Salary Prediction Model, ensuring consistency in the factors influencing both salary and team success. I organized the data to be compatible with a win prediction model.
+**Actions Taken**: *Data Collection and Preparation*: I used the same dataset and variables from the Salary Prediction Model, ensuring consistency in the factors influencing both salary and team success. I organized the data to be compatible with a win prediction model.
 
 *Model Development*: I developed a predictive model using the existing variables to estimate the number of wins out of 162 games (a full MLB season). The focus was on ensuring the model was interactive for users.
 
