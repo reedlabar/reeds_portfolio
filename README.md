@@ -28,15 +28,15 @@ This project aimed to predict the likelihood of loan defaults using various mach
 ## Project 3: Win Simulator (https://github.com/reedlabar/Win-Simulator)
 
 **Purpose**:
-This project was an extension of our Salary Prediction Model, designed to predict the number of wins for a sports team using the same variables that influenced player salaries. Our goal was to create an interactive tool that allows users pick three hitters and see the amount of wins they would get.
+This project was an extension of my Salary Prediction Model, designed to predict the number of wins for a sports team using the same variables that influenced player salaries. My goal was to create an interactive tool that allows users to pick three hitters and see the number of wins they would get.
 
-**Actions Taken**:
+**Actions Taken**: Data Collection and Preparation: I used the same dataset and variables from the Salary Prediction Model, ensuring consistency in the factors influencing both salary and team success. I organized the data to be compatible with a win prediction model.
 
-*Data Collection and Preparation*: We used the same dataset and variables from the Salary Prediction Model, ensuring consistency in the factors influencing both salary and team success. The data was organized to be compatible with a win prediction model.
+*Model Development*: I developed a predictive model using the existing variables to estimate the number of wins out of 162 games (a full MLB season). The focus was on ensuring the model was interactive for users.
 
-*Model Development*: A predictive model was developed using the existing variables to estimate the number of wins out of 162 games (a full MLB season). The focus was on ensuring the model was interactive for users.
-
-*User Interaction*: We integrated the win prediction model into a dashboard, allowing users to simulate different outcomes by adjusting the already selected variables from the salary prediction model. This interactive feature helps users understand how these key factors contribute to a team’s overall success.
+*User Interaction*: I integrated the win prediction model into a dashboard, allowing users to simulate different outcomes by adjusting the already selected variables from the salary prediction model. This interactive feature helps users understand how these key factors contribute to a team’s overall success.
 
 **Results**: The model provided reliable win predictions based on the existing variables. By interacting with the dashboard, users can simulate how changes in key factors might affect the number of wins.
+
+
 
