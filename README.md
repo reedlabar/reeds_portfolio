@@ -1,5 +1,20 @@
 # Reed's Portfolio 
-## Project 1: Loan Default Predictions - Applied Machine Learning (https://github.com/reedlabar/Loan-Default-Predictions)
+## Project 1: Housing Price Predicitons Using Regression (https://github.com/reedlabar/Housing-Data-Regression-)
+
+**Purpose**:
+This project aimed to predict housing prices using a dataset of 21,162 observations. The analysis supported property valuation by identifying key factors influencing price and building a robust linear regression model for accurate predictions.
+
+**Actions Taken**:
+
+*Data Preprocessing*: The dataset was cleaned by handling missing values for features such as bedrooms and bathrooms and removing irrelevant columns like id and Unnamed: 0. Key features, including sqft_living and sqft_above, were normalized to ensure model stability. Exploratory data analysis was conducted using correlation matrices, heatmaps, scatterplots, and boxplots to identify the most impactful features on price, with predictors such as sqft_living, grade, and bathrooms emerging as most significant
+
+*Model Development*: A machine learning pipeline was developed, combining feature scaling and a linear regression model. The data was split into training (85%) and testing (15%) sets to evaluate performance. 
+
+*Model Evaluation*: The final model achieved an R^2 score of 0.657 on the test data, indicating a strong ability to explain variance in housing prices. 
+
+**Results**: The linear regression model demonstrated strong predictive power, accurately modeling housing prices based on features such as sqft_living and grade. The results highlight the importance of key variables like living area and property grade in determining housing prices. This project provides valuable insights for real estate analytics and property valuation.
+
+## Project 2: Loan Default Predictions - Applied Machine Learning (https://github.com/reedlabar/Loan-Default-Predictions)
 
 **Purpose**:
 This project aimed to predict the likelihood of loan defaults using various machine learning techniques. The dataset was pulled Lending Club found on Kaggle.com. We hoped to support lending decision-making by identifying key factors that contribute to loan defaults.
@@ -14,7 +29,7 @@ This project aimed to predict the likelihood of loan defaults using various mach
 
 **Results**: The Random Forest model was the most effective, accurately predicting 38,391 loan statuses with a 98% accuracy rate. The model had a strong performance in identifying defaults, although misclassifications was seen with loans classified as fully paid but predicted as charged off. The dataset did have more records of people who did not default on their loans compared to those who did. Random Forest was good at handling such imbalances because it uses multiple decision trees and aggregates their results, reducing the bias toward the majority class.
 
-## Project 2: Salary Prediction Model for MLB Free Agents (https://github.com/reedlabar/Salary-Predicition-Model)
+## Project 3: Salary Prediction Model for MLB Free Agents (https://github.com/reedlabar/Salary-Predicition-Model)
 
 **Purpose**: The purpose of this project was to develop a predictive model to determine the salaries of Major League Baseball free agents based on their on-field performance metrics. This model aimed to assist a small-market MLB team in negotiating fair contracts with free agents by identifying undervalued players using data analytics.
 
@@ -25,7 +40,7 @@ This project aimed to predict the likelihood of loan defaults using various mach
 
 **Results**: The model successfully identified key performance metrics that impact player salaries, with OBP being a significant predictor. The analysis also highlighted players who were either overvalued or undervalued.
 
-## Project 3: Win Simulator (https://github.com/reedlabar/Win-Simulator)
+## Project 4: Win Simulator (https://github.com/reedlabar/Win-Simulator)
 
 **Purpose**:
 This project was an extension of my Salary Prediction Model, designed to predict the number of wins for a sports team using the same variables that influenced player salaries. My goal was to create an interactive tool that allows users to pick three hitters and see the number of wins they would get.
